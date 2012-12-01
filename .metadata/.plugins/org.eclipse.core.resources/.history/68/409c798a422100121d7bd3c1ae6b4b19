@@ -1,0 +1,9 @@
+package forcomp
+
+object w {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  val first = Anagrams.dictionaryByOccurrences.toList.head
+                                                  //> first  : (forcomp.Anagrams.Occurrences, List[forcomp.Anagrams.Word]) = (List
+                                                  //| ((c,2), (e,2), (h,1), (r,1), (s,1)),List(screech))
+  first._2.flatten.toString                       //> res0: String = List(s, c, r, e, e, c, h)
+}

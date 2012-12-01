@@ -1,0 +1,14 @@
+package forcomp
+
+object w6 {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  def powerSet[A](s: List[A]) =
+    s.foldLeft(List(List.empty[A])) {
+      (set, element) =>
+        set union (set map (element ++ _))
+    }                                             //> powerSet: [A](s: Set[A])scala.collection.immutable.Set[scala.collection.immu
+                                                  //| table.Set[A]]
+powerSet(List(1,2,3))                             //> res0: scala.collection.immutable.Set[scala.collection.immutable.Set[Int]] = 
+                                                  //| Set(Set(1, 2, 3), Set(2, 3), Set(), Set(3), Set(2), Set(1), Set(1, 3), Set(1
+                                                  //| , 2))
+}

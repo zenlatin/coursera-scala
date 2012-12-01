@@ -1,0 +1,6 @@
+object w {
+  println("Welcome to the Scala worksheet")
+  val l1 = List(('a',2),('b',1),('r',1))
+  val l2 = List(('r',1)
+  Anagrams.subtraction(l1, l2)
+}

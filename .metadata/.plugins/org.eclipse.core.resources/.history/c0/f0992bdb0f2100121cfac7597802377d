@@ -1,0 +1,7 @@
+import forcomp._
+
+object w6 {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  Anagrams.subtract(List(('a', 1), ('d', 1), ('l', 1), ('r', 1)), List(('r', 1)))
+                              
+}

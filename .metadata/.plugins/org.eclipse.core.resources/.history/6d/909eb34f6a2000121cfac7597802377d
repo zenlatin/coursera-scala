@@ -1,0 +1,10 @@
+package forcomp
+import scala.math._
+
+object w6 {
+  //loadDictionary.groupBy(w => Anagrams.wordOccurrences(w))
+  //Anagrams.dictionaryByOccurrences
+  //Anagrams.wordAnagrams("absdhfjsdfsdfle")
+  // Occurrences.empty
+      (Nil /: List(('a',1),('b',1)) { (set, element) => (powerSet map (element :: _)) :: powerSet }
+}

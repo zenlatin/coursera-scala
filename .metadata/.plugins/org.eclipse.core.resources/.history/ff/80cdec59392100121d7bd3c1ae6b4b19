@@ -1,0 +1,8 @@
+import forcomp._
+
+object w {
+  println("Welcome to the Scala worksheet") //> Welcome to the Scala worksheet
+  val l1 = List(('a', 2), ('b', 1), ('r', 1)) //> l1  : List[(Char, Int)] = List((a,2), (b,1), (r,1))
+  val l2 = List(('a', 1), ('r', 1)) //> l2  : List[(Char, Int)] = List((a,1), (r,1))
+  Anagrams.subtract(l1, l2) //> res0: forcomp.Anagrams.Occurrences = List((a,1), (r,0), (b,1))
+}

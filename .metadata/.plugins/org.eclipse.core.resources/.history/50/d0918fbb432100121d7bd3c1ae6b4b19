@@ -1,0 +1,6 @@
+package forcomp
+
+object w {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  List(1, 2, 3).map(x => x)                       //> res0: List[Int] = List(1, 2, 3)
+}

@@ -1,0 +1,25 @@
+import forcomp._
+
+object w {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  val l1 = List(('a', 2), ('b', 1), ('r', 1))     //> l1  : List[(Char, Int)] = List((a,2), (b,1), (r,1))
+  val l2 = List(('a', 1), ('r', 1))               //> l2  : List[(Char, Int)] = List((a,1), (r,1))
+  Anagrams.subtract(l1, l2)                       //> java.lang.NoClassDefFoundError: forcomp/Anagrams$
+                                                  //| 	at w$$anonfun$main$1.apply$mcV$sp(w.scala:7)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$$anonfun$$exe
+                                                  //| cute$1.apply$mcV$sp(WorksheetSupport.scala:76)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.redirected(W
+                                                  //| orksheetSupport.scala:65)
+                                                  //| 	at org.scalaide.worksheet.runtime.library.WorksheetSupport$.$execute(Wor
+                                                  //| ksheetSupport.scala:75)
+                                                  //| 	at w$.main(w.scala:3)
+                                                  //| 	at w.main(w.scala)
+                                                  //| Caused by: java.lang.ClassNotFoundException: forcomp.Anagrams$
+                                                  //| 	at java.net.URLClassLoader$1.run(URLClassLoader.java:202)
+                                                  //| 	at java.security.AccessController.doPrivileged(Native Method)
+                                                  //| 	at java.net.URLClassLoader.findClass(URLClassLoader.java:190)
+                                                  //| 	at java.lang.ClassLoader.loadClass(ClassLoader.java:306)
+                                                  //| 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:301)
+                                                  //| 	at java.lang.ClassLoader.loadClass(ClassLoader.java:247)
+                                                  //| 	... 6 more
+}

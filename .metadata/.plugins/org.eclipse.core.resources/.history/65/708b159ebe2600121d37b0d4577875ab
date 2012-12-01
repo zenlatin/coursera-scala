@@ -1,0 +1,43 @@
+package streams
+
+object wc {
+  println("Welcome to the Scala worksheet")
+  def from(n: Int): Stream[Int] = n #:: from(n + 1)
+  val nats = from(0)
+  def sieve(s: Stream[Int]): Stream[Int] =
+    s.head #:: sieve(s.tail filter (_ % s.head != 0))
+
+  val primes = sieve(from(2))
+  primes.take(100).toList
+  primes.take(1000).toList
+  def sqrtStream(x: Double): Stream[Double] = {
+    def improve(guess: Double) = (guess + x / guess) / 2
+    lazy val guesses: Stream[Double] = 1 #:: (guesses map improve)
+    guesses
+  }
+  sqrtStream(4).take(100).toList
+
+  val capacity: Vector[Int] = Vector(4, 9)
+  val initialState = capacity map (x => 0)
+
+  val level =
+    """------
+        |--ST--
+        |--oo--
+        |--oo--
+        |------""".stripMargin
+  val levelUnstripped =
+    """------
+        |--ST--
+        |--oo--
+        |--oo--
+        |------"""
+  val v = Vector(1, 2, 3)
+  v(1)
+  v.tail
+  v.indexWhere(x => x == 5)
+  v.indexOf(10)
+  val v2 = Vector(Vector('S', 'T'), Vector('o', 'o'), Vector('o', 'o'))
+  v2 map (row => row.indexOf('S'))
+
+v2.indexWhere(row => row.indexOf('S'))}

@@ -1,0 +1,20 @@
+package forcomp
+import scala.math._
+
+object w6 {
+//loadDictionary.groupBy(w => Anagrams.wordOccurrences(w))
+//Anagrams.dictionaryByOccurrences                //> res0: Map[forcomp.Anagrams.Occurrences,List[forcomp.Anagrams.Word]] = Map(Li
+                                                  //| st((c,2), (e,2), (h,1), (r,1), (s,1)) -> List(screech), List((a,2), (l,1), (
+                                                  //| r,1), (s,1), (t,1)) -> List(altars, astral), List((e,1), (f,2), (i,1), (n,1)
+                                                  //| , (s,2), (t,1)) -> List(stiffens), List((b,1), (d,1), (e,3), (h,1), (i,1), (
+                                                  //| k,1), (r,1), (s,1), (w,1)) -> List(bewhiskered), List((c,1), (d,1), (e,2), (
+                                                  //| f,1), (i,1), (n,1), (t,1)) -> List(infected), List((a,1), (h,1), (k,1), (n,1
+                                                  //| ), (s,1), (t,1)) -> List(thanks), List((c,1), (d,1), (e,1), (g,1), (i,1), (m
+                                                  //| ,1), (n,2), (o,1), (t,1), (u,1)) -> List(documenting), List((a,1), (b,1), (e
+                                                  //| ,1), (i,1), (k,1), (n,1), (t,1)) -> List(beatnik), List((a,1), (d,1), (e,3),
+                                                  //|  (i,1), (m,1), (o,1), (r,1), (s,1), (t,2), (v,1)) -> List(overestimated), Li
+                                                  //| st((a,1), (e,1), (i,2), (n,1), (p,1), (r,1), (s,2), (u,1), (z,1)) -> List(Pr
+                                                  //| ussianize), List((a,1), (b,1), (d,1), (e,1), (p,1), (s,1), (t,1), (u,1)) -> 
+                                                  //| List(Budapest), List((a,
+                                                  //| Output exceeds cutoff limit.
+}

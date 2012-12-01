@@ -1,0 +1,6 @@
+package forcomp
+
+object w6c {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+Anagrams.wordOccurrences("ate")
+}

@@ -1,0 +1,8 @@
+package forcomp
+import scala.math._
+
+object w6 {
+//loadDictionary.groupBy(w => Anagrams.wordOccurrences(w))
+//Anagrams.dictionaryByOccurrences
+Anagrams.wordAnagrams("ate")                      //> res0: List[forcomp.Anagrams.Word] = List(ate, eat, tea)
+}

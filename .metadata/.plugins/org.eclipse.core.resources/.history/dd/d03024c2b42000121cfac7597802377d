@@ -1,0 +1,8 @@
+import forcomp._
+
+object w6 {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  Anagrams.combinations(List(('a',2),('b',2))).length //> res0: List[forcomp.Anagrams.Occurrences] = List(List(), List((a,1)), List((a
+                                                  //| ,2)), List((b,1)), List((b,2)), List((b,1), (a,1)), List((b,2), (a,1)), List
+                                                  //| ((b,1), (a,2)), List((b,2), (a,2)))
+}

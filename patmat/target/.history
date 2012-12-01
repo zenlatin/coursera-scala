@@ -1,0 +1,55 @@
+console
+run
+test
+console
+val a = List(1)
+val a: List[Int] = List(1)
+val a : List[Int] = List(1)
+console
+val a: List[Int] 
+val a: List[Int] = List(1)
+console
+test
+style
+styleCheck
+submit marty@rmartinchavez.com bxpMrFQhAg
+submit marty@rmartinchavez.com   println(Huffman.quickEncode(Huffman.frenchCode)("h".toList))
+  println(Huffman.quickEncode(Huffman.frenchCode)("e".toList))
+  println(Huffman.quickEncode(Huffman.frenchCode)("he".toList))
+test
+styleCheck
+submit marty@rmartinchavez.com   println(Huffman.quickEncode(Huffman.frenchCode)("h".toList))
+  println(Huffman.quickEncode(Huffman.frenchCode)("e".toList))
+  println(Huffman.quickEncode(Huffman.frenchCode)("he".toList))
+submit marty@rmartinchavez.com bxpMrFQhAg
+submit marty@rmartinchavez.com 3477054229
+submit marty@rmartinchavez.com bxpMrFQhAg
+console
+submit marty@rmartinchavez.com bxpMrFQhAg
+test
+styleCheck
+test
+styleCheck
+submit marty@rmartinchavez.com     val encodeMap = convert(tree).toMap
+    (List[Bit]() /: text)((bits, c) => {
+      encodeMap.get(c) match {
+        case Some(code) => code.reverse ::: bits
+        case _ => bits
+      }
+    }).reverse
+  }
+submit marty@rmartinchavez.com bxpMrFQhAg
+List(1, 2, 3) span (_ < 2)
+console
+submit marty@rmartinchavez.com bxpMrFQhAg
+console
+styleCheck
+test
+submit marty@rmartinchavez.com     def insert[A](xs: List[A], item: A)(p: A => Boolean) : List[A] =
+      (xs span p) match {
+      case (before, after) => before ::: (item :: after)
+      case _ => List[A]()
+  
+submit marty@rmartinchavez.com bxpMrFQhAg
+submit marty@rmartinchavez.com   def convert(tree: CodeTree): CodeTable = tree match {
+submit marty@rmartinchavez.com bxpMrFQhAg

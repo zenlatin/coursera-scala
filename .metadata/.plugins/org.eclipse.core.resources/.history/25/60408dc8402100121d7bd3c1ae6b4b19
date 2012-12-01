@@ -1,0 +1,7 @@
+package forcomp
+
+object w {
+  println("Welcome to the Scala worksheet")
+  val first = Anagrams.dictionaryByOccurrences.toList.head
+  first
+}

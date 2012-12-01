@@ -1,0 +1,10 @@
+package forcomp
+
+object w6b {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  1                                               //> res0: Int(1) = 1
+  Anagrams.wordOccurrences("ate")                 //> res1: forcomp.Anagrams.Occurrences = List((a,1), (e,1), (t,1))
+  Anagrams.combinations(List(('a', 1)))           //> res2: List[forcomp.Anagrams.Occurrences] = List()
+Nil ::: List(1,2)                                 //> res3: List[Int] = List(1, 2)
+List(1,2) union List(2,3)
+}

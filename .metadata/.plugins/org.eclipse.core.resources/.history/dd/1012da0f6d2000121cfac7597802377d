@@ -1,0 +1,7 @@
+package forcomp
+
+object w6b {
+  println("Welcome to the Scala worksheet")       //> Welcome to the Scala worksheet
+  1                                               //> res0: Int(1) = 1
+  Anagrams.wordOccurrences("ate")
+}
